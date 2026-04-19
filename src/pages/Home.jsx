@@ -73,7 +73,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    handleSearch(); // initial load
+      handleSearch(); // initial load
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
